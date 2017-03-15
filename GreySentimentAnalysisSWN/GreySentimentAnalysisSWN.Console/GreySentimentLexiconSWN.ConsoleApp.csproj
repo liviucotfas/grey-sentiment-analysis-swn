@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Lexicons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GreyNumbers\GreyNumbers.csproj" />
+  </ItemGroup>
+
+</Project>
