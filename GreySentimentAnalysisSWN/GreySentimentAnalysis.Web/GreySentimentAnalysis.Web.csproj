@@ -22,5 +22,10 @@
     <ProjectReference Include="..\GreyNumbers\GreyNumbers.csproj" />
     <ProjectReference Include="..\GreySentimentAnalysis.Lib\GreySentimentAnalysis.Lib.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="Data\lexicon-swn-grey.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
